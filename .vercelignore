@@ -1,0 +1,59 @@
+# Backend files (not needed for Vercel deployment)
+backend/
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Generated images (will be generated on demand)
+generated_images/
+backend/generated_images/
+
+# Test files
+test-*.js
+*.test.js
+*.spec.js
+
+# Documentation
+*.md
+!README.md
+
+# Scripts
+scripts/
+start-*.bat
+*.bat
+
+# Supabase (if not using)
+supabase/
+
+# Development logs
+DEVELOPMENT_LOG.md
+HACKATHON_*.md
